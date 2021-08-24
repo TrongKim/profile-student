@@ -113,7 +113,7 @@
   .more-infor__container{
     width: 85%;
     margin: 0 auto;
-    word-break: break-all;
+    word-break: break-work;
   }
   .more-infor-items{
     display: flex;
