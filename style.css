@@ -76,9 +76,6 @@
       cursor: pointer;
       position: absolute;
       top: 2.5rem;
-      /* tam thoi width voi height */
-      width: 20rem;
-      height: 20rem;
       left: 50%;
       transform: translateX(-50%);
       background: white;
