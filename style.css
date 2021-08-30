@@ -1,16 +1,23 @@
 :root{
     font-size: 10px;
   }
+
   *{
     box-sizing: border-box;
+  }
+  
+  body{
     font-size: 1.6rem;
   }
+
   a{
     text-decoration: none;
   }
+
   i{
     font-size: 4rem;
   }
+
   .btn{
     background: blue;
     padding: 1.5rem;
@@ -22,6 +29,7 @@
     text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: 5rem;
   }
 
   
@@ -150,5 +158,9 @@
 @media screen and (max-width: 510px){
     .more-infor{
         width: 100%;
+    }
+
+    .more-infor-items{
+      margin-top: 2rem;
     }
 }
