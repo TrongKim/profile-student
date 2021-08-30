@@ -75,7 +75,10 @@
   .avatar-container{
       cursor: pointer;
       position: absolute;
-      top: 2.5rem; 
+      top: 2.5rem;
+      /* tam thoi width voi height */
+      width: 20rem;
+      height: 20rem;
       left: 50%;
       transform: translateX(-50%);
       background: white;
@@ -94,6 +97,16 @@
     font-size: 3.2rem;
     text-align: center;
     margin-top: 5rem;
+  }
+
+  .tick-protection{
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .tick-protection i {
+    font-size: 3rem;
+    color: blue;
   }
   
   .specialized-container{
