@@ -23,13 +23,14 @@
     padding: 1.5rem;
     color: white;
     border-radius: 1rem;
+    text-align: center;
   }
   
   .story{
     text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 5rem;
+    width: 95%;
+    word-break: break-word;
+    margin: 5rem auto;
   }
 
   
@@ -98,14 +99,15 @@
   .specialized-container{
     display: flex;
     justify-content: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
     margin-top: 5rem;
   }
 
   .specialized__list{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
   }
   
   .specialized-infor{
@@ -152,10 +154,6 @@
 
     .student{
         width: 100%;
-    }
-
-    .specialized-container{
-        margin-left: 1rem;
     }
 
 }
